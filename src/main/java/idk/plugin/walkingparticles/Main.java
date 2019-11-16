@@ -18,6 +18,7 @@ public class Main extends PluginBase implements Listener {
     public void onMove(PlayerMoveEvent e) {
         if (e.getFrom().equals(e.getTo())) return;
         Player p = e.getPlayer();
+        if (p.isSpectator()) return;
         if (p.hasPermission("particle.angryvillager")) {
             p.getLevel().addParticle(new AngryVillagerParticle(p));
         }
