@@ -1,10 +1,10 @@
 package idk.plugin.walkingparticles;
 
-import cn.nukkit.Player;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerMoveEvent;
 import cn.nukkit.level.particle.*;
+import cn.nukkit.player.Player;
 import cn.nukkit.plugin.PluginBase;
 
 public class Main extends PluginBase implements Listener {

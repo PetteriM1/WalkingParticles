@@ -1,6 +1,6 @@
 name: WalkingParticles
 version: "${pom.version}"
-api: ["1.0.0"]
+api: ["2.0.0"]
 author: PetteriM1
 main: idk.plugin.walkingparticles.Main
 
